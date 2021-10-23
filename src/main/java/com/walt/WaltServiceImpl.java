@@ -87,8 +87,7 @@ public class WaltServiceImpl implements WaltService {
         for (Delivery delivery : driverDeliveries) {
             sum += delivery.getDistance();
         }
-
-        System.out.println(sum);
+        
         return sum;
     }
 
